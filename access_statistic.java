@@ -12,7 +12,8 @@ import org.apache.hadoop.mapreduce.Reducer;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;  
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;  
 import org.apache.hadoop.util.GenericOptionsParser;  
- 
+
+//about log ... 
 public class access_statistic {  
     //继承mapper接口，设置map的输入类型为<Object,Text>,输出类型为<Text,IntWritable>  
     public static class Map extends Mapper<Object,Text,Text,IntWritable>{  
